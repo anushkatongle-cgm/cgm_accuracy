@@ -1,0 +1,16 @@
+# Patient data — keep the folder, not the files
+Data/
+InitialRuns/Data/**
+!InitialRuns/Data/.keep
+
+# Pipeline outputs
+InitialRuns/outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# macOS
+.DS_Store
